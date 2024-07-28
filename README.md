@@ -85,7 +85,7 @@ Supports TWRP, OrangeFox, PBRP & SHRP compilation and production
 | ------------ | -------------------- | ------------ |
 | `MANIFEST_BRANCH` | Source branch | 12.1 |
 | `DEVICE_TREE_URL` | Device tree address | https://github.com/Hacker778892/android_device_infinix_Infinix-X6525B |
-| `DEVICE_TREE_BRANCH` | Device branch that you want to use for build (typically corresponds to the manifest branch) | android-12.1 |
+| `DEVICE_TREE_BRANCH` | Device branch that you want to use for build (typically corresponds to the manifest branch) | android-16.1 |
 | `DEVICE_PATH` | Device tree location for syncing, relative to workspace root (usually listed as "LOCAL_PATH" or "DEVICE_PATH" in BoardConfig.mk) | device/infinix/X6525B |
 | `DEVICE_NAME` | Model name (same as twrp_`<DEVICE_NAME>`.mk from device tree) | X6525B |
 | `DEVICE_MAKEFILE` | Name of device-specific makefile from tree (format: `<PREFIX>_<DEVICE_NAME>`) | twrp_X6525B
