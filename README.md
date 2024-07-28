@@ -83,16 +83,16 @@ Supports TWRP, OrangeFox, PBRP & SHRP compilation and production
 
 | Name | Description | Example |
 | ------------ | -------------------- | ------------ |
-| `MANIFEST_BRANCH` | Source branch | 12.1 |
-| `DEVICE_TREE_URL` | Device tree address | https://github.com/TeamWin/android_device_asus_I003D |
-| `DEVICE_TREE_BRANCH` | Device branch that you want to use for build (typically corresponds to the manifest branch) | android-12.1 |
-| `DEVICE_PATH` | Device tree location for syncing, relative to workspace root (usually listed as "LOCAL_PATH" or "DEVICE_PATH" in BoardConfig.mk) | device/asus/I003D |
-| `DEVICE_NAME` | Model name (same as twrp_`<DEVICE_NAME>`.mk from device tree) | I003D |
-| `DEVICE_MAKEFILE` | Name of device-specific makefile from tree (format: `<PREFIX>_<DEVICE_NAME>`) | twrp_I003D
-| `REPOPICK_PATCHES` | (Optional) Gerrit patches to include in build (space separated) - if you don't know what this means, then leave blank | 1245 1437 |
-| `BUILD_TARGET` | Build Target Partition (boot/recovery/vendor_boot) | recovery |
+| `MANIFEST_BRANCH` | Source branch | 13.0 |
+| `DEVICE_TREE_URL` | Device tree address | https://github.com/Hacker778892/android_device_infinix_Infinix-X6525B |
+| `DEVICE_TREE_BRANCH` | Device branch that you want to use for build (typically corresponds to the manifest branch) | android-13.0 |
+| `DEVICE_PATH` | Device tree location for syncing, relative to workspace root (usually listed as "LOCAL_PATH" or "DEVICE_PATH" in BoardConfig.mk) | device/infinix/X6525B |
+| `DEVICE_NAME` | Model name (same as twrp_`<DEVICE_NAME>`.mk from device tree) | X6525B |
+| `DEVICE_MAKEFILE` | Name of device-specific makefile from tree (format: `<PREFIX>_<DEVICE_NAME>`) | twrp_X6525B
+| `REPOPICK_PATCHES` | (Optional) Gerrit patches to include in build (space separated) - if you don't know what this means, then leave blank  | |
+| `BUILD_TARGET` | Build Target Partition (boot/recovery/vendor_boot) | boot |
 | `RECOVERY_INSTALLER` | Include recovery installer zip | no |
-| `OPTIONAL_FLAGS` | Additional/custom build commands should be entered here | export FOX_VIRTUAL_AB_DEVICE=1 |
+| `OPTIONAL_FLAGS` | Additional/custom build commands should be entered here |   |
 
 -----
 
